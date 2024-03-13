@@ -1,18 +1,19 @@
-import { getDetails, postDetails } from "@/backend/controler/details";
-
 export default async (req, res) => {
-
+    console.log(req.query.id);
     switch (req.method) {
         case 'GET':
-            await getDetails(req, res)
+            res.json({
+                message: `Hello World get ${req.query.id}`
+            })
             break;
         case 'POST':
-            await postDetails(req, res)
+            res.json({
+                message: `Hello World  post ${req.query.id}`
+            })
             break;
         default:
             res.json({
                 message: "Hello World"
             })
-            break;
     }
 }
