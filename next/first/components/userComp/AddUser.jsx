@@ -1,5 +1,6 @@
 "use client"
 
+import { addUser } from '@/app/redux/slice';
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 
@@ -8,7 +9,7 @@ const AddUser = () => {
     const dispatch = useDispatch();
     const addDataName =()=>{
         console.log(name);
-        dispatch(name);
+        dispatch(addUser(name));
     }
     return (
         <section class="text-gray-600 body-font relative">
