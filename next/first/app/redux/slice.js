@@ -22,5 +22,5 @@ const Slice= createSlice({
         },
     }
 })
-export const {addUser} =Slice.actions;
+export const {addUser,deleteUser} =Slice.actions;
 export default Slice.reducer;
