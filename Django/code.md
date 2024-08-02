@@ -7,3 +7,4 @@
 # django-admin startproject chaiaurdjango
 # cd chaiaurdjango
 # python manage.py runserver 
+# create app -- >> python manage.py startapp name
