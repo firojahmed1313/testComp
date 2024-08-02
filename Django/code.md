@@ -8,3 +8,10 @@
 # cd chaiaurdjango
 # python manage.py runserver 
 # create app -- >> python manage.py startapp name
+
+
+## tailwind 
+# python -m ensurepip --upgrade
+# pip install django-tailwind
+# pip install 'django-tailwind[reload]'
+# 
