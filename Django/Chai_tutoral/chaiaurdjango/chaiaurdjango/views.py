@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 def HomePage(request):
     #return HttpResponse("Welcome to Chaiaur Django!")
-    return render(request, 'index.html')
+    return render(request, 'testLayout.html')
 
 
 def AboutPage(request):
