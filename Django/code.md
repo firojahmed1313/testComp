@@ -15,3 +15,10 @@
 # pip install django-tailwind
 # pip install 'django-tailwind[reload]'
 # 
+
+
+## firoj ahmed12345
+
+
+# python manage.py makemigrations name
+# python manage.py migrate

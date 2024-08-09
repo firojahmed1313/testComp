@@ -125,3 +125,8 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 NPM_BIN_PATH = '/usr/local/bin/npm'
+# NEW APP TRUSTED
+CSRF_TRUSTED_ORIGINS = ['https://8000-firojahmed1313-testcomp-8uu8h99oelu.ws-us115.gitpod.io']
+#FOR MODEL IMAGE LIBRARY
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
